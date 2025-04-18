@@ -1,0 +1,70 @@
+# NetPIDTracer
+
+![Banner](https://raw.githubusercontent.com/MrAlaa90/NetPIDTracer/main/assets/netpidtracer_banner.png)
+
+NetPIDTracer is a lightweight, open-source Python tool designed to trace active network connections (`netstat` output) along with their associated **Process IDs (PIDs)** and **full executable paths** on Linux systems.
+
+## 🔍 Features
+
+- List all active TCP/UDP connections
+- Show local and remote addresses with port numbers
+- Match each connection with the process PID
+- Display the full file path of the process executable
+- Easy to use, no external dependencies (pure Python)
+
+## 📦 Requirements
+
+- Python 3.x
+- Linux-based OS (Tested on Ubuntu/Debian)
+
+Install dependencies using:
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Usage
+
+Run the tool using:
+```bash
+python3 netpidtracer_en.py
+```
+
+Example output:
+```
+[+] Protocol: tcp	Local Address: 127.0.0.1:631	Remote Address: 0.0.0.0:0	PID: 982	Path: /usr/sbin/cupsd
+```
+
+## 📂 Project Structure
+
+```
+NetPIDTracer/
+├── netpidtracer_en.py
+├── requirements.txt
+├── LICENSE
+├── README.md
+└── assets/
+    └── netpidtracer_banner.png
+```
+
+## 👨‍💻 Contributing
+
+Contributions are welcome!
+- Fork the repo
+- Create a new branch
+- Make your changes
+- Submit a pull request
+
+Feel free to open issues or suggest improvements.
+
+## 🛡️ License
+
+MIT License. See `LICENSE` file for details.
+
+## 🌐 Author
+
+Alaa (Mralaa900@gmail.com) — [GitHub Profile](https://github.com/YourUsername)
+
+---
+
+"Built with 💻 for the cybersecurity community."
+
